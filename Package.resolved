@@ -122,8 +122,8 @@
         "package": "tss-client-swift",
         "repositoryURL": "https://github.com/torusresearch/tss-client-swift.git",
         "state": {
-          "branch": "spm_fix_path",
-          "revision": "6eb2bb192d6c4f36ce1152d9346078118a610f1d",
+          "branch": "4.0.1",
+          "revision": "508e6df4ff34f7e40df99cec0f0a6dbc4e319aa7",
           "version": null
         }
       },
