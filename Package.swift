@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Web3SwiftMpcProvider",
-    platforms: [.iOS(.v13), .macOS(.v11)],
+    platforms: [.iOS(.v14), .macOS(.v11)],
     products: [
         .library(
             name: "Web3SwiftMpcProvider",
@@ -14,8 +14,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/argentlabs/web3.swift", from:"1.6.0"),
-        .package(url: "https://github.com/torusresearch/tss-client-swift.git", from: "4.0.0"),
-        .package(url: "https://github.com/tkey/curvelib.swift", from: "1.0.1"),
+        .package(url: "https://github.com/torusresearch/tss-client-swift.git", from: "5.0.0"),
+        .package(url: "https://github.com/tkey/curvelib.swift", from: "2.0.0"),
     ],
     targets: [
         .target(
